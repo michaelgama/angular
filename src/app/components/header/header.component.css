@@ -1,0 +1,21 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  background-color: #2c7c99;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+li {
+  margin-right: 1rem;
+  list-style: none;
+}
+
+a {
+  color: #fff;
+}

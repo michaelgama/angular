@@ -1,0 +1,18 @@
+{
+  "register": [
+    {
+      "id": 2,
+      "name": "Paulo Souza",
+      "email": "paulo@mail.com",
+      "phone": "(82) 9 8778-5553",
+      "cpf": "741.254.785-33"
+    },
+    {
+      "id": 3,
+      "name": "Pedro",
+      "email": "pedro@gmail.com",
+      "phone": "(87) 4 5541-2365",
+      "cpf": "363.262.323-26"
+    }
+  ]
+}

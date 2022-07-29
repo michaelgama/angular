@@ -1,0 +1,45 @@
+h1 {
+  color: #56a4fc;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+table {
+  margin-top: 2rem;
+  background-color: #ddd;
+  width: 100%;
+  border-spacing: 0 0.1rem;
+}
+
+th {
+  padding: 0.5rem 2rem;
+  border: 0;
+  background: #fff;
+  color: #56a4fc;
+}
+
+td {
+  padding: 10px 0;
+  text-align: center;
+  color: #686666;
+}
+
+tr:nth-child(even) {
+  background: #ddd;
+}
+tr:nth-child(odd) {
+  background: #faf8f8;
+}
+
+a {
+  color: #298afa;
+  font-size: 0.9rem;
+}
+
+button {
+  color: #f53f3f;
+  font-size: 0.9rem;
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+}

@@ -1,0 +1,16 @@
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 2rem;
+  color: #56a4fc;
+  margin-bottom: 1rem;
+}
+
+.container {
+  height: 50vh;
+}

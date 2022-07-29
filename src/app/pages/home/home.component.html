@@ -1,0 +1,24 @@
+<h1>Registros</h1>
+
+<main>
+  <table>
+    <tbody>
+      <tr>
+        <th>Nome</th>
+        <th>Email</th>
+        <th>Telefone</th>
+        <th>CPF</th>
+        <th></th>
+        <th></th>
+      </tr>
+      <tr *ngFor="let register of registers">
+        <td>{{ register.name }}</td>
+        <td>{{ register.email }}</td>
+        <td>{{ register.phone }}</td>
+        <td>{{ register.cpf }}</td>
+        <td><a [routerLink]="['edit', register.id]">Editar</a></td>
+        <td><button (click)="deleteRegister(register)">Excluir</button></td>
+      </tr>
+    </tbody>
+  </table>
+</main>
